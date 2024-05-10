@@ -1,0 +1,120 @@
+* {
+  padding: 0%;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-family: "Poppins", sans-serif;
+  }
+  
+body {
+  background-color: black;
+  background-image: url(image/fitness2.jpeg);
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  }
+  
+.header {
+  padding: 20px;
+  background-color: #0D1321;
+  display: flex;
+  align-items: center;
+  margin-left: 0%;
+  }
+  
+.navbar-- a {
+  position: relative;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 60px;
+  }
+
+.LOGO{
+  width: 250px;
+  margin-right: 100px;
+}
+
+.box1{
+  width: 500px;
+  margin-top: 35px;
+  margin-left: 670px; 
+  height: 450px;
+  background-color:#e8ddd4a5 ;
+  border: 1px solid #27252583;
+  border-radius: 15px;
+  padding: 9px;
+}
+
+.box2 {
+  width: 500px;
+  height: 275px;
+  margin-top: 40px;
+  float: left;
+  margin-left: -33px;
+  background-color:#e8ddd4a5; 
+  border: 1px solid #27252583;
+  border-radius: 15px;
+  padding-left: 40px;
+}
+
+.form{
+  width: 500px;
+  border: 1px solid #27252583;
+  background-color: #e8ddd4a5;
+  border-radius: 15px;
+  margin-top: 0%;
+}
+
+.welcome a{
+  color: #313131;
+  font-size: 20px;  
+}
+
+.heading{
+  color: #272727;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 23px;
+  margin-left: 5%;    
+}
+
+.input a{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input{
+  padding: 5px;
+  font-size: 10px;
+}
+
+.input-field{
+  font-size: 15px;
+  background:rgb(255, 249, 249);
+  color: #272727;
+  height: 40px;
+  width:90%;
+  border: none;
+  border-radius: 15px;   
+  outline: none;
+  transition: .2s ease; 
+  padding-left:8px;
+}
+
+.submit-field{
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+
+
+
+
+

@@ -1,0 +1,110 @@
+/* CSS styles here */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffeddf;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #00011e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-- img {
+    width: 250px;
+    height: auto;
+}
+
+.navbar-- {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-- a {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.head {
+    text-align: center;
+    margin-top: 20px;
+    color: #313131;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.picture {
+    max-width: 100%;
+    height: auto;
+}
+
+.formcont {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #b8303083;
+    border-radius: 15px;
+    background-color: #e8ddd4a5;
+    padding: 20px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #0048ff;
+}
+
+.input-field::placeholder {
+    color: #888;
+}
+
+.submit-field {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0048ff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-field:hover {
+    background-color: #0524d2;
+}
+
+.heading2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: bold;
+}

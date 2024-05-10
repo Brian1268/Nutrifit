@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+body{
+  background-color: #ffff;
+  height: 350px;
+}
+
+.LOGO{
+  width: 250px ;
+  height: 85px;
+  margin-left: 35px;
+  margin-top: 5px;   
+}
+
+.navbar--{
+    margin-top: 40px;
+    margin-left: 180px;
+  }
+  
+  
+.navbar-- a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 60px;
+   
+  }
+.navigation{
+    display: flex;
+    background-color: #00011e;
+    margin-bottom: 1%;
+ 
+  }
+
+.title{
+  color: #a71f1f;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 30px;
+  margin-left: 5%; 
+  }
+  .formboxes{
+    display: flex ;
+  }
+
+  .form1{
+    border: 1px solid #27252583;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+    margin-left: 70px;
+    padding-left: 40px;
+    margin-top: 132px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: fit-content;
+    height: fit-content;
+    
+ 
+}
+
+.line label a{
+  text-decoration: none;
+  color: #0909ec;
+}
+.line label a:hover{
+  text-decoration: underline;
+}
+.name{
+  margin-left: 45px;
+}
+
+.input2{
+    padding: 15px;
+}
+.input-field{
+    font-size: 15px;
+    background:rgb(255, 249, 249);
+    color: #050505;
+    height: 40px;
+    width:20%;
+    margin-inline-start: 5%;
+    border-radius: 15px;   
+    outline: none;
+    transition: .2s ease; 
+    margin-left: 500px;
+    text-align: center;
+    
+  
+}
+.submit-field-update{
+  background-color: #e41717;
+  border-radius: 15px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-left:0px;
+  color: #ffffff;
+  margin-top: -10px;
+
+}
+.submit-field-delete{
+  background-color: #e41717;
+  border-radius: 15px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-top: 1%;
+}
+
+.submit-field:hover{
+  background-color: #580505;
+}
+
+.manage{
+  display: flex;
+  
+}
+.updateimg{
+    height: 550px;
+    margin-left: 50px;
+}
+.content{
+  display: flex;
+}

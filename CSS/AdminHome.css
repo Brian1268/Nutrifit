@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+*{
+  font-family: 'Poppins' , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.heading{
+  text-align: center;
+  color: #0D1321;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  border: 0.1rem solid #FFB27A;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: #FFB27A;
+}
+
+.btn:hover {
+  background: #FFB27A;
+  color: white;
+}
+
+.home {
+  min-height:90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(DB-BKG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home .content {
+  max-width: 80rem;
+  
+}
+
+.home .content h3{
+  font-size: 9rem;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 3.5rem;
+  letter-spacing: 1rem;
+ 
+}
+
+
+/* About */
+.about {
+  background: white;
+}
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+}
+
+.about .row .content h3{
+  font-size: 3.5rem;
+  color: #FFB27A;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.about .row .content p{
+  font-size: 2.5rem;
+  color: #0D1321;
+  padding-bottom: 20px;
+}
+
+.about .row .content li{
+  font-size: 7rem;
+  color: #0D1321;
+  padding: 2rem 0;
+  line-height: 2;
+}
+
+.about .row .image {
+  flex: 1 1 40rem;
+}
+
+.about .row .image img{
+  width: 100%;
+}
+
+/*End of About*/
+
+.services {
+  background: #FFEDDF;
+}
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+.services .box-container .box {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin-bottom: 8rem;
+}
+
+.services .box-container .box:hover,
+.services .box-container .box:hover .icon{
+  background: #fdf8f4;
+}
+
+.services .box-container .box .icon {
+  width: 13rem;
+  height: 13rem;
+  line-height: 13rem;
+  background: white;
+  border-radius: 50%;
+  margin: -11rem auto 2rem;
+  border: 1.8rem solid #FFEDDF;
+}
+
+.services .box-container .box .icon img {
+  width: 5rem;
+  margin-top: 2rem;
+}
+
+.services .box-container .box .content h3{
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: #FFB27A;
+}
+
+.services .box-container .box .content h5{
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  color: #FFB27A;
+}
+
+.services .box-container .box .content .line {
+  background: #FFB27A;
+  width: 30%;
+  height: 0.4rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5rem;
+}
+
+.services .box-container .box .content p {
+  font-size: 1.4rem;
+  color: #484848;
+  line-height: 2;
+}
+
+.services .box-container .box .content ul {
+  margin: 2rem 0;
+  list-style: none;
+}
+
+.services .box-container .box .content ul li {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  color: #484848;
+  text-align: left;
+}
+
+.services .box-container .box .content ul li i {
+  font-size: 1.4rem;
+  display: inline-block;
+  line-height: 1.4rem;
+  padding: 0.5rem;
+  margin-right: 1rem; 
+  background: #FFB27A;
+  border-radius: 50%;
+}
+/*Services Ends*/
+
+/*Pricing Plans Start Here*/
+
+.pricing{
+  background: #f8f8f8;
+  padding-bottom: 8rem;
+}
+
+.pricing .box-container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.pricing .box-container .active {
+  background:#FFEDDF;
+  transform: scale(1.05);
+}
+
+.pricing .box-container .box{
+  height: 55rem;
+  width: 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: white;
+}
+
+.pricing .box-container .title{
+  margin: 3rem 0;
+  font-size: 2.2rem;
+  color: #484848;
+  text-transform: uppercase;
+}
+
+.pricing .box-container .box .price{
+  color: #FFB27A;
+  margin: 5rem;
+  margin-bottom: 5rem;
+}
+
+.pricing .box-container .box .price .currency{
+  font-size: 4rem;
+  line-height: 3.5rem;
+  font-weight: 300
+}
+
+.pricing .box-container .box .price .amount{
+  font-size: 5.8rem;
+  line-height: 4.5rem;
+  font-weight: 700;
+}
+
+.pricing .box-container .box .price .duration {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.pricing .box-container .box ul {
+  margin: 0 auto 2.5rem;
+}
+
+.pricing .box-container .box ul li{
+  text-align: center;
+  font-size: 1.6rem;
+  padding-left: 3rem;
+  margin: 1rem auto;
+  color: black;
+}
+
+.Adsash{
+    color: aliceblue;
+   
+}
+.Admin{
+  color: rgb(14, 124, 220);
+}

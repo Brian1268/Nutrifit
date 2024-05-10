@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #FFEDDF;
+    padding-top: 150px;
+    padding-left: 0px;
+  
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #0D1321;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+  
+  .navbar-- a {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 60px;
+  }
+  .navbar-- a:hover{
+    color:#3855E8;
+  }
+
+  .navbar-- a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+  }
+  
+  .Get-Started-Button{
+    background-color: #3855E8;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+  }
+  .Get-Started-Button:hover {
+    background-color: #213dca;
+    transition: .3s;
+    
+  }
+  .Get-Started-Button:active {
+    opacity: 0.5;
+  }
+
+
+
+
+
+
+body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+
+}
+
+.bgimg{
+    height:500px;
+    width:700px;
+    margin-left: 55%;
+    margin-top: 80px;
+}
+
+
+.top{
+    display: flex;
+    background-color: rgba(249, 210, 153, 0.482);
+    margin-top: 0%;
+    
+}
+
+.LOGO{
+    width: 100px ;
+    height: 100px;
+    align-items: center;
+    border-radius: 40%;
+    
+}
+
+.menu{
+    display: flex;
+    background-color:transparent;
+    width: 100%;
+    height: 0px;
+}
+.menu li{
+    list-style-type: none;
+    margin-top: 35px; 
+}
+.menu li .link{
+    text-decoration: none;
+    color: #000000;
+    font-size: large;
+     margin: 20px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 3%;
+    border: none;
+    cursor: pointer;
+    background-color: #0289ff; 
+    color: #000;  
+    justify-content: right;
+}
+.btn:hover{
+    background-color: rgb(6, 43, 227);
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    transition: .2s ease; 
+}
+
+.container{
+    margin-left:40px ;
+    align-items:left;
+    height:40vh;
+    width:25vw;
+    
+}
+
+ul{
+    padding: 0;
+    margin:0;
+}
+
+ul li{
+    list-style-type:none;
+    display:inline-block;
+    margin:10px;
+    color:white;
+    text-shadow:2px 2px 7px grey;
+    font-size:25px !important;
+
+}
+ul li:hover{
+    color:yellow;
+}
+
+ul li.active,ul li.secondary-active{
+    color:yellow;
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    background-color: #3b3b3b5f;
+}
+.form-box{
+    background-color:#605f5f3e;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.welcome a{
+    color: #ffffff;
+    font-size: 20px;  
+    margin-left: 11%;
+    margin-right: 7%;
+}
+h3{
+    color: #ffffff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 30px;
+    margin-left: 20%;    
+    margin-right: 20%;
+}
+.input{
+    padding: 5px ;
+}
+.input-field{
+    font-size: 15px;
+    background:none;
+    color: #060606;
+    height: 40px;
+    width:90%;
+    margin-left: 5%;
+    border: none;   
+    outline: none;
+    transition: .2s ease; 
+    border-radius: 25px;
+    text-align:left;
+    margin-left:40px;
+    padding-left:20px;
+    border-style:solid;
+    border-width: 1px;
+    
+}
+.inputfield1{
+    font-size: 15px;
+    background:none;
+    color: #060606;
+    margin-left: 5%;
+    border: none;   
+    outline: none;
+    transition: .2s ease;
+    border-radius: 25px;
+    text-align:20px;
+    padding-left:20px;
+    resize:none;
+    border-style:solid;
+    border-width:1px;
+
+}
+
+.submit-field{
+    background-color: #0289ff;
+    border-radius: 30px;
+    border: none;
+    width: 270px;
+    height: 40px;
+    margin-left: 120px;
+    border-radius: 25px;
+}
+.submit-field:hover{
+    background-color: #054b88;
+}
+.two-col{
+    display: flex;
+    justify-content: space-between;
+   
+    font-size: medium;
+    margin-top: 0%;
+}
+.two-col .one{
+    display: flex; 
+    margin-left: 35px;     
+}
+.two label a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 35px
+}
+.two label a:hover{
+    text-decoration: underline;
+}
+span{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 35px;
+    margin-left: 45px;
+}
+span a{
+    text-decoration: none;
+    color: #000;
+}
+.submit{
+    background-color: #eaff02b2;
+    border: none;
+    width: 270px;
+    height: 40px;
+    margin-left: 355px;
+    border-radius: 25px;
+    transition: .9s ease;
+    
+
+}
+
+.submit:hover{
+    background-color: #e51c09;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top:200px ;
+    margin-bottom: 0%;
+    bottom: 10%;
+    background:rgb(86, 89, 91);
+    color: #fff;
+    padding: 20px  20px;
+    font-size: 13px;
+    line-height: 20px;
+   
+}
+.row{
+    width: 95%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+.col h4{
+    width: fit-content;
+    position: relative;
+}
+.input-field2{
+    font-size: 12px;
+    background:  transparent;
+    color: #fff;
+    height: 21px;
+    width:100%;
+    border: none;
+    border-radius: 0px;   
+    outline: none;
+    transition: .2s ease;
+}
+Form{
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  solid #ccc;
+    margin-bottom: 10px;
+    border-style: none;
+}
+
+.F-logo{
+    width: 60px;
+    height: 30px;
+    border-radius: 40%;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+.QR{
+    width: 105px;
+    height: 105px;
+    margin-top: 10px;
+}
+
+.content{
+    display: flex;
+}
