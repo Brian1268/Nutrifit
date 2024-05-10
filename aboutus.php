@@ -14,6 +14,8 @@
     <hr>
 <div class="align">
     <h1>About Us</h1>
+
+    <p>skfjnlkfdjblsj</p>
 </div>
 <div class="container1"></div>
 <div>
