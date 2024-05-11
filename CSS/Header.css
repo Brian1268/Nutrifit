@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #FFEDDF;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.header1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background-color: #0D1321;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+
+.navbar-- a {
+  position:relative;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 60px;
+}
+.navbar-- a::before {
+  content: '';
+  position:absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+}
+
+.Get-Started-Button{
+  background-color: #3855E8;
+  width: 170px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+.Get-Started-Button:hover {
+  background-color: #213dca;
+  transition: .3s;
+  
+}
+.Get-Started-Button:active {
+  opacity: 0.5;
+}
+
+.flex-container {
+  display: flex;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 0px;
+  margin-left: 250px;
+}
+
+.img2 {
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.header{
+  min-height: 400px;
+}
+
+.header p {
+  width: 590px;
+  font-weight:500;
+  font-size: 52px;
+  color: #484848;
+}
+.header .sub-text {
+  width: 410px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #484848;
+}
+.header .sub-text2 {
+  margin-top: 5px;
+  font-size: 34px;
+}
+
+.header img {
+  max-width: 500px;
+  margin-left: 0px;
+}
+.header .img2 {
+  max-width: 600px;
+  margin-left: 0px;
+}
+.section2-Button{
+  background-color: #FFB27A;
+  width: 170px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 150px;
+}

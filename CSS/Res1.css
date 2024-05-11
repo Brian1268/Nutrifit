@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+*{
+  font-family: 'Poppins' , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.heading{
+  text-align: center;
+  color: #0D1321;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.recipe .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.recipe .row .content {
+  flex: 1 1 40rem;
+}
+
+.recipe .row .content h3{
+  font-size: 3.5rem;
+  color: #FFB27A;
+  text-transform: uppercase;
+}
+
+.recipe .row .content ul li{
+  font-size: 1.5rem;
+  color: #0D1321;
+  padding: 2rem 0;
+  line-height: 1.4;
+}
+
+.recipe .row .image {
+  flex: 1 1 40rem;
+}
+
+.recipe .row .image img{
+  width: 100%;
+}
+
+.recipe .content ol li{
+  font-size: 1.6rem;
+  color: #0D1321;
+  padding: 2rem 0;
+  line-height: 1.4;
+}
+
+.recipe .content h4{
+  font-size: 2.5rem;
+  color: #FFB27A;
+  text-transform: uppercase;
+}
